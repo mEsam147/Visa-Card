@@ -8,10 +8,17 @@
       "path": "./tsconfig.node.json"
     }
   ],
+
   "compilerOptions": {
     "baseUrl": ".",
+    "outDir": "build",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   }
 }
