@@ -1,0 +1,142 @@
+[
+  {
+    "amount": 150.0,
+    "currency": "USD",
+    "cardholder": "Alice Johnson",
+    "status": "Completed",
+    "created": "2025-01-01"
+  },
+  {
+    "amount": 89.5,
+    "currency": "EUR",
+    "cardholder": "John Smith",
+    "status": "Pending",
+    "created": "2025-01-02"
+  },
+  {
+    "amount": 200.99,
+    "currency": "GBP",
+    "cardholder": "Maria Garcia",
+    "status": "Failed",
+    "created": "2025-01-03"
+  },
+  {
+    "amount": 45.0,
+    "currency": "USD",
+    "cardholder": "Robert Brown",
+    "status": "Completed",
+    "created": "2025-01-04"
+  },
+  {
+    "amount": 78.25,
+    "currency": "CAD",
+    "cardholder": "Emily Davis",
+    "status": "Pending",
+    "created": "2025-01-05"
+  },
+  {
+    "amount": 120.75,
+    "currency": "USD",
+    "cardholder": "James Wilson",
+    "status": "Completed",
+    "created": "2025-01-06"
+  },
+  {
+    "amount": 310.6,
+    "currency": "AUD",
+    "cardholder": "Sophia Martinez",
+    "status": "Failed",
+    "created": "2025-01-07"
+  },
+  {
+    "amount": 67.8,
+    "currency": "EUR",
+    "cardholder": "Daniel Moore",
+    "status": "Pending",
+    "created": "2025-01-08"
+  },
+  {
+    "amount": 150.1,
+    "currency": "USD",
+    "cardholder": "Emma Taylor",
+    "status": "Completed",
+    "created": "2025-01-09"
+  },
+  {
+    "amount": 99.99,
+    "currency": "JPY",
+    "cardholder": "Olivia Anderson",
+    "status": "Failed",
+    "created": "2025-01-10"
+  },
+  {
+    "amount": 88.5,
+    "currency": "GBP",
+    "cardholder": "Michael Lee",
+    "status": "Pending",
+    "created": "2025-01-11"
+  },
+  {
+    "amount": 230.4,
+    "currency": "USD",
+    "cardholder": "Isabella Walker",
+    "status": "Completed",
+    "created": "2025-01-12"
+  },
+  {
+    "amount": 76.3,
+    "currency": "AUD",
+    "cardholder": "Ethan Harris",
+    "status": "Pending",
+    "created": "2025-01-13"
+  },
+  {
+    "amount": 140.25,
+    "currency": "CAD",
+    "cardholder": "Mason Clark",
+    "status": "Failed",
+    "created": "2025-01-14"
+  },
+  {
+    "amount": 64.9,
+    "currency": "EUR",
+    "cardholder": "Ava Robinson",
+    "status": "Completed",
+    "created": "2025-01-15"
+  },
+  {
+    "amount": 299.99,
+    "currency": "USD",
+    "cardholder": "Liam Wright",
+    "status": "Completed",
+    "created": "2025-01-16"
+  },
+  {
+    "amount": 59.49,
+    "currency": "GBP",
+    "cardholder": "Ella King",
+    "status": "Pending",
+    "created": "2025-01-17"
+  },
+  {
+    "amount": 420.1,
+    "currency": "AUD",
+    "cardholder": "William Hall",
+    "status": "Failed",
+    "created": "2025-01-18"
+  },
+  {
+    "amount": 132.0,
+    "currency": "CAD",
+    "cardholder": "Amelia Young",
+    "status": "Completed",
+    "created": "2025-01-19"
+  },
+  {
+    "amount": 101.5,
+    "currency": "USD",
+    "cardholder": "Benjamin Scott",
+    "status": "Pending",
+    "created": "2025-01-20"
+  }
+]
