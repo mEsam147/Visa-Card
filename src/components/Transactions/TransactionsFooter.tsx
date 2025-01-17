@@ -20,11 +20,16 @@ const TransactionsFooter = ({
   totalPages,
 }: Props) => {
   return (
+    // Pagination controls and results count
+
     <div className="py-3 flex items-center justify-between">
+      {/* Display current results range and total results count */}
       <div>
         Viewing {startIndex + 1}-{endIndex} of {transactions.length} Results
       </div>
+      {/* Pagination buttons */}
       <div className="flex items-center gap-x-2">
+        {/* Previous page button */}
         <Button
           variant={"outline"}
           onClick={prevPage}
@@ -32,9 +37,11 @@ const TransactionsFooter = ({
         >
           Prev
         </Button>
+        {/* Next page button */}
         <Button
           variant={"outline"}
           disabled={currentPage >= totalPages}
+          // Disable if on last page
           onClick={nextPage}
         >
           Next

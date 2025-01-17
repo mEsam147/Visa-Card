@@ -13,6 +13,7 @@ type Props = {
 };
 
 const HeaderContent = ({ cardData }: Props) => {
+  // This is Visa Card Information Array.
   const visaData = [
     { id: 1, name: "Cardholder", value: cardData?.cardholderName || "" },
     {
@@ -67,17 +68,21 @@ const HeaderContent = ({ cardData }: Props) => {
             alt=""
           />
         </div>
+        {/* Display masked card number with last 4 digits */}
         <div className="flex items-center gap-x-4">
           {Array.from({ length: 3 }).map((_, i) => (
+            // Masked card number (12 digits)
             <div
               className="flex items-center gap-x-2 text-2xl font-bold"
               key={i}
             >
               {Array.from({ length: 4 }).map((_, i) => (
+                //  Bullet points to represent masked digits
                 <span key={i}>&#x2022;</span>
               ))}
             </div>
           ))}
+          {/* Display last 4 digits of the card number */}
           <strong className="tracking-wider text-lg font-normal">
             {cardData?.last4}
           </strong>
@@ -85,9 +90,7 @@ const HeaderContent = ({ cardData }: Props) => {
         <div className="flex items-center justify-between">
           {visaData.map((item) => (
             <div className="flex flex-col items-center gap-y-1" key={item.id}>
-              <strong className="text-primary  text-sm">
-                {item.name}
-              </strong>
+              <strong className="text-primary  text-sm">{item.name}</strong>
               <span className="text-muted-foreground  ">{item.value}</span>
             </div>
           ))}

@@ -5,6 +5,8 @@ type Props = {
   cardData: CardInfo | null;
 };
 const ContentVisa = ({ cardData }: Props) => {
+  // The visaData array contains objects representing visa card information.
+  // This array can be used to display visa card information .
   const visaData = [
     {
       id: 1,
@@ -41,6 +43,7 @@ const ContentVisa = ({ cardData }: Props) => {
 
   return (
     <div className="md:w-3/4 mt-7 space-y-3">
+      {/* Loop Through the visaData array and display each item */}
       {visaData?.map((item) => (
         <div className="flex items-center justify-between" key={item.id}>
           <strong className="text-primary ">{item.title}</strong>
@@ -61,7 +64,10 @@ const ContentVisa = ({ cardData }: Props) => {
               />
             </div>
           ) : (
-            <p className="text-muted-foreground text-sm text-left "> {item.value}</p>
+            <p className="text-muted-foreground text-sm text-left ">
+              {" "}
+              {item.value}
+            </p>
           )}
         </div>
       ))}

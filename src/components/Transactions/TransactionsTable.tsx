@@ -26,6 +26,7 @@ const TransactionsTable = ({ paginatedTransactions }: Props) => {
           </TableRow>
         </TableHeader>
         <TableBody>
+          {/* Map through paginated transactions and display each transaction */}
           {paginatedTransactions.slice(0, 7).map((transaction, i) => (
             <TableRow key={i}>
               <TableCell className="font-medium">
